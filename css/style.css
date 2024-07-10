@@ -1,0 +1,116 @@
+
+/* Common Css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ol,ul,li{
+    list-style: none;
+}
+
+.bg-primary-color{
+    background-color: #60BC3E;
+}
+/* Common Css end */
+
+
+/* Banner Section Css start */
+.banner {
+    background-image: url(../images/Banar\ section.png);
+    padding: 166px 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+/* Banner Section Css end */
+
+/* Countdown section css start */
+.countdown-list {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+.countdown-list li {
+    width: 90px;
+    border: 1px solid #dddd;
+    margin: 0 20px;
+    text-align: center;
+    background-color: #60BC3E;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 7px 0;
+}
+.countdown-list li span {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    display: block;
+}
+.countdown-list li p {
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+
+.countdown-heading h1 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 18px;
+    color: #60BC3E;
+}
+.countdown-heading h5 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.countdown-heading h5 span{
+    color: blueviolet;
+}
+/* Countdown section css end */
+
+/* Preview Css start */
+.preview-box {
+    border-radius: 25px;
+    box-shadow: 0px 0px 17px -1px;
+}
+.preview-text h2 {
+    color: white;
+    font-weight: 600;
+}
+.preview-text h2 {
+    color: white;
+    font-weight: 600;
+}
+.preview-text p {
+    font-weight: 600;
+    color: white;
+}
+.preview-image {
+    height: 450px;
+}
+.preview-image img {
+    border-radius: 25px 25px 0px 0px;
+    height: 498px;
+    width: 300px;
+}
+
+/* Preview Css end */
+
+
+/* Review Css start */
+.reviewer-details {
+    background-image: url(/images/wave.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 20px 0;
+}
+
+/* Review Css end */
