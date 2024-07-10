@@ -105,12 +105,103 @@ ol,ul,li{
 
 
 /* Review Css start */
+.review-section {
+    margin: 100px 0 70px 0;
+}
 .reviewer-details {
     background-image: url(/images/wave.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
     padding: 20px 0;
+    position: relative;
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
 }
 
+.reviewer-img {
+    width: 85px;
+    height: 80px;
+    border-radius: 50%;
+}
+.reviewer-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.reviewer-img {
+    width: 85px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    border: 3px solid blueviolet;
+}
+.reviewer-details p {
+    font-weight: 600;
+    color: white;
+}
+.reviewer-details h3 {
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 30px;
+    color: white;
+}
+.reviewe-text p {
+    text-align: justify;
+    padding: 0 25px;
+    font-weight: 500;
+}
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
 /* Review Css end */
+
+/* FAQ Css Start */
+#faq-section{
+    margin: 100px 0;
+}
+.accordion-header button{
+    background-color: #60BC3E;
+    color: white;
+}
+.accordion-header button:focus{
+    box-shadow: none;
+}
+#faq-section .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    background-color: #60BC3E;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+#faq-section .accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url(/images/icon/plus.png);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+#faq-section .accordion-button:not(.collapsed)::after {
+    background-image: url(/images/icon/minus.png);
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+/* FAQ Css End */
